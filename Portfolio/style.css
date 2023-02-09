@@ -1,0 +1,572 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background: darkcyan;
+    color: white;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 25px 20px;
+}
+.container h2{
+    font-size: 27px;
+}
+.portfolio ul{
+    font-size: 18px;
+
+    align-items: center;
+    
+}
+
+.img{
+    width: 30%;
+    height: 400px;
+    position: relative;
+    left: 50em;
+    top: -17vh;
+    border-radius: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav h2{
+    position: relative;
+    top: -12vh;
+    left: -16vh;
+}
+span{
+    color: red;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 40px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    top: -25vh;
+    left: 3vh;
+    font-size: 15px;
+}
+nav ul li a ::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0-5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: trcubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    left: 49em;
+    bottom: 95vh;
+}
+.btn :hover{
+    transform: scale(1.2);
+
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+/*
+.newslatter form{
+    width: 380px;
+    max-width: 90%;
+    position: relative;
+}
+
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid #ff004d;
+    outline: none;
+    border-radius: 30px;
+
+}
+*/
+.a_propos form input :last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 0px 0px;
+    border-radius: 30px;
+    background-color: white;
+    color: white;
+    box-shadow: 0px opx 0px burlywood,0px 0px 0px #858585;
+    top: -3px;
+    right: 3px;
+}
+
+
+.a_propos{
+    width: 100%;
+    background-color: white;
+}
+
+.a_propos-text{
+    width: 80%;
+    height: 80px;
+   
+
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.a_propos-text p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 25px;
+    position: relative;
+    bottom: 45vh;
+    left: -16vh;
+    line-height: 20px;
+}
+.button{
+    background-color: yellow;
+    color: magenta;
+    text-decoration: none;
+    border: 4px solid transparent;
+    font-weight: bold;
+    padding: 24px 50px;
+    border-radius: 30px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    left: 15vh;
+}
+.Formation-Certification{
+    background: white;
+    width: 100%;
+    padding: 50px 5px ;
+    text-align: center;
+}
+.title h7{
+    color: darkcyan;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.box-a{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    min-height: 400px;
+    align-items: right;
+    position: relative;
+    bottom: 126vh;
+    
+}
+.box-b{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 400px;
+    align-items: left;
+    position: relative;
+    bottom: 63vh;
+
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin: 4px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: red;
+}
+h8{
+    color: red;
+    font-size: 23px;
+    margin-bottom: 15px;
+    position: relative;
+    top: -6vh;
+}
+.pra div{
+    color: darkcyan;
+    font-size: 18px;
+    line-height: 15px;
+    margin-bottom: 27px;
+    position: relative;
+    top: -5vh;
+}
+.pra p{
+    color: darkcyan;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    left: -7px;
+    top: -7vh;
+}
+.card .button :hover{
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+h9{
+    margin-left: 10%;
+    color: white;
+    letter-spacing: 0cm;
+    font-size: 10vh;
+    position: relative;
+    float: center;
+    right: -47vh;
+    position: relative;
+    top: -8px;
+
+}
+hr .light{
+    border-top: 2px solid white;
+    width: 90%;
+    margin-top: -8cm;
+    position: relative;
+    top: -300px;
+    left: -20px;
+}
+.strong {
+    color: red;
+    text-decoration: none;
+}
+.div{
+    margin-left: 40%;
+    position: relative;
+    float: right;
+    left: -27vh;
+    top: -3vh;
+}
+.right p{
+    margin-left: 200px;
+    letter-spacing: 1cm;
+    position: relative;
+    left: -20vh;
+
+
+}
+
+.card .button-r{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    left: 20-px;
+}
+.card .button-r :hover{
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.button-r{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 6px 8px;
+    border-radius: 30px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    left: 87vh;
+    top: -3vh;
+
+}
+.section-right{
+    background-color: white;
+    float: right;
+    width: 400px;
+    position: relative;
+    top: 25px;
+    left: -6vh;
+    
+}
+.section-right-a{
+    background-color: white;
+    float: right;
+    width: 400px;
+    position: relative;
+    top: 25px;
+    left: -10vh;
+}
+.section-right-b{
+    background-color: white;
+    float: right;
+    width: 400px;
+    position: relative;
+    top: 25px;
+    left: -15vh;
+
+}
+h10{
+    margin-right: 10%;
+    color:darkcyan;
+    letter-spacing: -0cm;
+    font-size: 5vh;
+
+}
+hr .light{
+    border-top: 20px solid white;
+    width: 10%;
+    margin-top: -3cm;
+    margin-bottom: -7cm;
+}
+.div{
+    margin-right: 10%;
+}
+.skls{
+    padding: 0;
+    width: 40%;
+    margin-right: 10%;
+
+}
+.cool{
+    background-color: red;
+    border: 1px solid  darkcyan;
+    width: 390px;
+    height: 5px;
+}
+.po{
+    margin-top: 2px;
+}
+.inner{
+    height: 100%;
+    background-color: darkcyan;
+    
+}
+.Qualites-Personnelles{
+    width: 88%;
+    height: 434px;
+    background-color: white;
+    border-radius: 107PX;
+    box-shadow: 2PX 2PX 12PX rgba(red, green, blue, alpha);
+    display: flex;
+    margin: 10% auto 20px auto;
+    position: relative;
+    top: -70vh;
+}
+.Qualites-Personnelles img{
+    height: 250px;
+}
+.Qualites-Personnelles-text{
+    width: 550px;
+}
+.Qualites-Personnelles-text P:nth-child(1){
+    color: darkcyan;
+    font-family: 'poppins'sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 5px;
+}
+.Qualites-Personnelles-text p:nth-child(2){
+    color: darkcyan;
+    font-size: 14px;
+    font-family: 'poppins'sans-serif;
+    font-weight: bold;
+    line-height: 15px;
+}
+.Qualites-Personnelles-text p b:nth-child(3)
+.Qualites-Personnelles-text p b:nth-child(4){
+    color: darkcyan;
+    font-family: 'poppins'sans-serif;
+    font-size: 18px;
+}
+div p{
+    color: red;
+    font-size: -8vh;
+}
+.Qualites-Personnelles-text button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: calibri;
+    background-color: red;
+    position: relative;
+    left: 50vh;
+
+}
+strong{
+    color: blue;
+    text-decoration: none;
+}
+
+.section-right-n{
+    background-color: white;
+    float: right;
+    width: 400px;
+    position: relative;
+    top: 1px;
+    left: 6vh;
+}
+.References{
+    width: 50%;
+    height: 300px;
+    background-color: white;
+    border-radius: 107PX;
+    box-shadow: 2PX 2PX 12PX rgba(red, green, blue, alpha);
+    display: flex;
+    margin: 10% auto 20px auto;
+    position: relative;
+    top: 40vh;
+}
+.References img{
+    height: 220px;
+}
+h20{
+    margin-right: 10%;
+    color: darkcyan;
+    letter-spacing: -0cm;
+    font-size: 5vh;
+
+}
+hr .light-n{
+    border-top: 20px solid red;
+    width: 10%;
+    margin-top: -3cm;
+    margin-bottom: -7cm;
+}
+.div{
+    margin-right: 10%;
+}
+.skls-n{
+    padding: 0;
+    width: 40%;
+    margin-right: 10%;
+
+}
+.cool-n{
+    background-color: red;
+    border: 1px solid  darkcyan;
+    width: 390px;
+    height: 5px;
+}
+.po-n{
+    margin-top: 2px;
+}
+.inner-n{
+    height: 100%;
+    background-color: darkcyan;
+    
+}
+button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: calibri;
+    background-color: red;
+    position: relative;
+    left: 15vh;
+    top: 5vh;
+
+}
+
+h17{
+    margin-left: 10%;
+    color: white;
+    letter-spacing: -0cm;
+    font-size: 50px;
+    position: relative;
+    top: 360px;
+
+    }
+    hr.light-o{
+        border-top: 2px solid red;
+        width: 100%;
+        margin-top: 10cm;
+        margin-bottom: 1cm;
+    }
+    .interet{
+        margin-left: 10%;
+        position: relative;
+        top: -10px;
+    }
+    .Centres img{
+        height: 260px;
+    }
